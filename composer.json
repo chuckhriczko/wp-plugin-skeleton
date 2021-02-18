@@ -1,0 +1,21 @@
+{
+    "name": 		"chucksplayground/wp-plugin-skeleton",
+    "description": 	"Wordpress plugin skeleton",
+    "type": 		"wordpress-plugin",
+    "license": 		"MIT",
+    "version":       "1.0",
+    "require": {
+        "php": 		">=7.4",
+        "chucksplayground/wp-plugin-library": "1.0"
+    },
+    "authors": [
+        {
+            "name": 	"Chuck Hriczko",
+            "email": 	"chuckhriczko@gmail.com",
+            "homepage": "https://www.chucksplayground.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": { 	"\\CPRODS\\WPCodeManager\\": "app/" }
+    }
+}
