@@ -6,7 +6,7 @@
     "version":       "1.0",
     "require": {
         "php": 		">=7.4",
-        "chucksplayground/wp-plugin-library": "1.0"
+        "chucksplayground/wp-plugin-library": "dev-master"
     },
     "authors": [
         {
